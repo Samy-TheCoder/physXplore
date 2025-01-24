@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -57,12 +61,11 @@
 
 .boxes {
     display: flex;
-    margin-left: 12px;
+    margin-left: 20px;
 }
 
 .box {
     background-color: #D9D9D9;
-    border: 1px solid black;
     height: 20px;
     width: 80px;
     margin: 5px;
@@ -71,10 +74,13 @@
 
 .content2 {
     margin: 20px 0 0 35px;
+    font-size: 24px;
+    margin-left: 48px;
 }
 
 .simulation {
     background-color: #D9D9D9;
+    border: 1.5px solid black;
     height: 186px;
     width: 328px;
     margin-top: 8px;
@@ -84,13 +90,14 @@
 }
 
 .wave {
-    background: white;
-    height: 161px;
+    background: #F1ECEC;
+    height: 155px;
     width: 164px;
-    margin-left: 154px;
-    margin-top: 12px;
+    margin-left: 153px;
+    margin-top: 15px;
     padding: 5px;
     border-radius: 10px;
+    line-height: 23px;
 }
 
  .wave h5{
@@ -100,3 +107,39 @@
     line-height: 13px;
     font-size: 14px;
 } 
+.newton{
+    margin-top: 200px;
+    margin-left: 50px;
+    line-height: 23px;
+}
+#three{
+    background: #D9D9D9;
+    height: 95px;
+    width: 106px;
+    margin: 5px;
+    border-radius: 6px;
+}
+.threeBox{
+    display: flex;
+    margin-left: 20px;
+}
+.ongoing{
+    margin-top: 20px;
+    margin-left: 36px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.logos img{
+    height: 26px;
+    width: 25px;
+    margin: 10px 11px 0 34px;
+    filter: invert(1);
+}
+.logos{
+    background-color: #FF595E;
+    height: 45px;
+    width: 325px;
+    margin: 9px 0 0 30px;
+    border-radius: 7px
+}
