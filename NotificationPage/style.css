@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.notification{
+    padding: 40px 30px;
+}
+#one img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+.para1{
+    padding: 7px 33px;
+    font-size: 23px;
+
+}
+#one{
+    display: flex;
+    padding: 15px 35px;
+}
+.para2{
+    padding: 0px 30px;
+}
